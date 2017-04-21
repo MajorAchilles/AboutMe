@@ -15,7 +15,39 @@
 </style>
 
 <script>
+    function switchToTab(tabName) {
+        $(".mdl-layout__tab").each(function (index, tab) {
+            $(tab).removeClass("is-active");
+        });
 
+        $(".mdl-layout__tab-panel").each(function (index, tab) {
+           $(tab).removeClass("is-active");
+        });
+
+        $(".mdl-layout__drawer").removeClass("is-visible");
+        $(".mdl-layout__obfuscator").removeClass("is-visible");
+
+        $("#tab_link_" + tabName).addClass("is-active");
+        $("#fixed-tab-" + tabName).addClass("is-active");
+    }
+
+    $(document).ready(function switchTabHandlers() {
+        $("#link_bio").click(function () {
+            switchToTab("bio");
+        });
+
+        $("#link_edu").click(function () {
+            switchToTab("edu");
+        });
+
+        $("#link_car").click(function () {
+            switchToTab("car");
+        });
+
+        $("#link_int").click(function () {
+            switchToTab("int");
+        });
+    });
 </script>
 
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
@@ -27,10 +59,10 @@
         </div>
         <!-- Tabs -->
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-            <a href="#fixed-tab-bio" class="mdl-layout__tab is-active">Bio</a>
-            <a href="#fixed-tab-edu" class="mdl-layout__tab">Education</a>
-            <a href="#fixed-tab-car" class="mdl-layout__tab">Career</a>
-            <a href="#fixed-tab-int" class="mdl-layout__tab">Interests</a>
+            <a href="#fixed-tab-bio" class="mdl-layout__tab is-active" id="tab_link_bio">Bio</a>
+            <a href="#fixed-tab-edu" class="mdl-layout__tab" id="tab_link_edu">Education</a>
+            <a href="#fixed-tab-car" class="mdl-layout__tab" id="tab_link_car">Career</a>
+            <a href="#fixed-tab-int" class="mdl-layout__tab" id="tab_link_int">Interests</a>
         </div>
     </header>
     <div class="mdl-layout__drawer" aria-hidden="false">
@@ -46,21 +78,25 @@
         <section class="mdl-layout__tab-panel is-active" id="fixed-tab-bio">
             <div class="page-content">
                 <!-- Your content goes here -->
+                Bio
             </div>
         </section>
         <section class="mdl-layout__tab-panel" id="fixed-tab-edu">
             <div class="page-content">
                 <!-- Your content goes here -->
+                Education
             </div>
         </section>
         <section class="mdl-layout__tab-panel" id="fixed-tab-car">
             <div class="page-content">
                 <!-- Your content goes here -->
+                Career
             </div>
         </section>
         <section class="mdl-layout__tab-panel" id="fixed-tab-int">
             <div class="page-content">
                 <!-- Your content goes here -->
+                Interests
             </div>
         </section>
     </main>
