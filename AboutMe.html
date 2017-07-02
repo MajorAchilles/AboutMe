@@ -9,6 +9,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- mithril -->
   <script src="https://unpkg.com/mithril/mithril.js"></script>
+  <!-- mythreal -->
+  <script src="mythreal.js"></script>
   <!--Content starts here-->
   <style>
     .am-pseudo-body {
@@ -82,151 +84,14 @@
       <main class="mdl-layout__content">
 
           <section class="mdl-layout__tab-panel is-active" id="fixed-tab-bio">
-                <div class="page-content">
-                </div>
           </section>
 
 
           <section class="mdl-layout__tab-panel" id="fixed-tab-edu">
-            <div class="page-content">
-              <div class="mdl-grid">
-
-                <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet">
-                  <div class="am-full-width-card mdl-card mdl-shadow--2dp">
-                    <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">Post Graduation</h2>
-                    </div>
-
-                    <div class="mdl-card__supporting-text">
-                      <ul class="demo-list-two mdl-list">
-                        <li class="mdl-list__item mdl-list__item--two-line">
-                          <span class="mdl-list__item-primary-content">
-                            <i class="material-icons mdl-list__item-avatar">school</i>
-                            <span>Christ University</span>
-                            <span class="mdl-list__item-sub-title">2016</span>
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-
-                </div>
-
-                <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet">
-                  <div class="am-full-width-card mdl-card mdl-shadow--2dp">
-                    <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">Graduation</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                      <ul class="demo-list-two mdl-list">
-                        <li class="mdl-list__item mdl-list__item--two-line">
-                          <span class="mdl-list__item-primary-content">
-                            <i class="material-icons mdl-list__item-avatar">school</i>
-                            <span>Kuvempu University</span>
-                            <span class="mdl-list__item-sub-title">2012</span>
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-
-                </div>
-
-                <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet">
-                  <div class="am-full-width-card mdl-card mdl-shadow--2dp">
-                    <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">12th Board</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                      <ul class="demo-list-two mdl-list">
-                        <li class="mdl-list__item mdl-list__item--two-line">
-                          <span class="mdl-list__item-primary-content">
-                            <i class="material-icons mdl-list__item-avatar">school</i>
-                            <span>RBSE</span>
-                            <span class="mdl-list__item-sub-title">2009</span>
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-
-                </div>
-
-                <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet">
-                  <div class="am-full-width-card mdl-card mdl-shadow--2dp">
-                    <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">10th Board</h2>
-                    </div>
-
-                    <div class="mdl-card__supporting-text">
-                      <ul class="demo-list-two mdl-list">
-                        <li class="mdl-list__item mdl-list__item--two-line">
-                          <span class="mdl-list__item-primary-content">
-                            <i class="material-icons mdl-list__item-avatar">school</i>
-                            <span>SEBA</span>
-                            <span class="mdl-list__item-sub-title">2006</span>
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
           </section>
 
 
           <section class="mdl-layout__tab-panel" id="fixed-tab-car">
-            <div class="page-content">
-              <div class="mdl-grid">
-
-                <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet">
-                  <div class="am-full-width-card mdl-card mdl-shadow--2dp">
-                    <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">Freelance Developer</h2>
-                    </div>
-
-                    <div class="mdl-card__supporting-text">
-                      <ul class="demo-list-two mdl-list">
-                        <li class="mdl-list__item mdl-list__item--two-line">
-                          <span class="mdl-list__item-primary-content">
-                            <i class="material-icons mdl-list__item-avatar">work</i>
-                            <span>Don Bosco High School, Mangaldai</span>
-                            <span class="mdl-list__item-sub-title">2012-2014</span>
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-
-                </div>
-
-                <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet">
-                  <div class="am-full-width-card mdl-card mdl-shadow--2dp">
-                    <div class="mdl-card__title">
-                      <h2 class="mdl-card__title-text">Software Engineer</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                      <ul class="demo-list-two mdl-list">
-                        <li class="mdl-list__item mdl-list__item--two-line">
-                          <span class="mdl-list__item-primary-content">
-                            <i class="material-icons mdl-list__item-avatar">work</i>
-                            <span>Cerner Healthcare Solutions</span>
-                            <span class="mdl-list__item-sub-title">2016-Present</span>
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </div>
           </section>
 
 
@@ -236,214 +101,210 @@
   </div>
 
   <script>
-      function switchToTab(tabName) {
-          $(".mdl-layout__tab").each(function (index, tab) {
-              $(tab).removeClass("is-active");
-          });
+    function switchToTab(tabName) {
+        $(".mdl-layout__tab").each(function (index, tab) {
+            $(tab).removeClass("is-active");
+        });
 
-          $(".mdl-layout__tab-panel").each(function (index, tab) {
-             $(tab).removeClass("is-active");
-          });
+        $(".mdl-layout__tab-panel").each(function (index, tab) {
+           $(tab).removeClass("is-active");
+        });
 
-          $(".mdl-layout__drawer").removeClass("is-visible");
-          $(".mdl-layout__obfuscator").removeClass("is-visible");
+        $(".mdl-layout__drawer").removeClass("is-visible");
+        $(".mdl-layout__obfuscator").removeClass("is-visible");
 
-          $("#tab_link_" + tabName).addClass("is-active");
-          $("#fixed-tab-" + tabName).addClass("is-active");
-      }
+        $("#tab_link_" + tabName).addClass("is-active");
+        $("#fixed-tab-" + tabName).addClass("is-active");
+    }
 
 
-      $(document).ready(function switchTabHandlers() {
-          renderWithMithril();
+    $(document).ready(function switchTabHandlers() {
+        renderWithMithril();
 
-          $("#link_bio").click(function () {
-              switchToTab("bio");
-          });
+        $("#link_bio").click(function () {
+            switchToTab("bio");
+        });
 
-          $("#link_edu").click(function () {
-              switchToTab("edu");
-          });
+        $("#link_edu").click(function () {
+            switchToTab("edu");
+        });
 
-          $("#link_car").click(function () {
-              switchToTab("car");
-          });
+        $("#link_car").click(function () {
+            switchToTab("car");
+        });
 
-          $("#link_int").click(function () {
-              switchToTab("int");
-          });
+        $("#link_int").click(function () {
+            switchToTab("int");
+        });
+    });
+
+
+    function renderWithMithril() {
+      renderEducation();
+      renderCareer();
+      renderInterests();
+    }
+
+    function renderEducation() {
+      var root = document.getElementById("fixed-tab-edu");
+
+      var cell_pg = m(mdl_cell, {
+        cellClasses: "mdl-cell--6-col mdl-cell--12-col-tablet",
+        children: [
+            m(mdl_card_twoLine,  {
+              icon: "school",
+              place: "Christ University",
+              title: "Post Graduation - MSc(CS)",
+              period: "2016",
+            })
+        ]
       });
 
-
-      function renderWithMithril() {
-        var root = document.getElementById("fixed-tab-int");
-
-        var cell_bike = m(mdl_cell, {
-          cellClasses: "mdl-cell--6-col mdl-cell--12-col-tablet",
-          children: [
-              m(mdl_card_square, {
-              squareClass: "am-card-square-bike",
-              icon: "motorcycle",
-              title: "Solo Riding",
-              subtitle: "For if I have to run, why not chase the mountains?"
+      var cell_ug = m(mdl_cell, {
+        cellClasses: "mdl-cell--6-col mdl-cell--12-col-tablet",
+        children: [
+            m(mdl_card_twoLine,  {
+              icon: "school",
+              place: "Kuvempu University",
+              title: "Graduation - BSc(IT)",
+              period: "2012",
             })
-          ]
-        });
+        ]
+      });
 
-        var cell_camera = m(mdl_cell, {
-          cellClasses: "mdl-cell--6-col mdl-cell--12-col-tablet",
-          children: [
-              m(mdl_card_square, {
-              squareClass: "am-card-square-camera",
-              icon: "camera",
-              title: "Photography",
-              subtitle: "Helping reopen wounds that fading memories had swept under the rugs."
+      var cell_12 = m(mdl_cell, {
+        cellClasses: "mdl-cell--6-col mdl-cell--12-col-tablet",
+        children: [
+            m(mdl_card_twoLine,  {
+              icon: "school",
+              place: "RBSE",
+              title: "12th Board",
+              period: "2009",
             })
-          ]
-        });
+        ]
+      });
 
-        var cell_game = m(mdl_cell, {
-          cellClasses: "mdl-cell--6-col mdl-cell--12-col-tablet",
-          children: [
-              m(mdl_card_square, {
-              squareClass: "am-card-square-game",
-              icon: "gamepad",
-              title: "Video Games",
-              subtitle: "Escaping reality before 8-bit was cool."
+      var cell_10 = m(mdl_cell, {
+        cellClasses: "mdl-cell--6-col mdl-cell--12-col-tablet",
+        children: [
+            m(mdl_card_twoLine,  {
+              icon: "school",
+              place: "SEBA",
+              title: "10th Board",
+              period: "2006",
             })
-          ]
-        });
+        ]
+      });
 
-        var cell_devil = m(mdl_cell, {
-          cellClasses: "mdl-cell--6-col mdl-cell--12-col-tablet",
-          children: [
-              m(mdl_card_square, {
-              squareClass: "am-card-square-devil",
-              icon: "pets",
-              title: "Being Inhuman",
-              subtitle: "Not a people person. Definitely not."
+      var grid = m(mdl_grid, { children: [cell_pg, cell_ug, cell_12, cell_10]});
+
+      var pageContent = m(page_content, { children: [grid] });
+
+      m.mount(root, {
+        view: function(){
+          return pageContent;
+        }
+      });
+    }
+
+    function renderCareer() {
+      var root = document.getElementById("fixed-tab-car");
+
+      var cell_freelance = m(mdl_cell, {
+        cellClasses: "mdl-cell--6-col mdl-cell--12-col-tablet",
+        children: [
+            m(mdl_card_twoLine,  {
+              icon: "work",
+              place: "Don Bosco High School, Mangaldai",
+              title: "Freelance Developer",
+              period: "2012 - 2014",
             })
-          ]
-        });
+        ]
+      });
 
-        var grid = m(mdl_grid, { children: [cell_bike, cell_camera, cell_game, cell_devil]});
+      var cell_cerner = m(mdl_cell, {
+        cellClasses: "mdl-cell--6-col mdl-cell--12-col-tablet",
+        children: [
+            m(mdl_card_twoLine,  {
+              icon: "work",
+              place: "Cerner Healthcare Solutions",
+              title: "Software Engineer",
+              period: "2016 - Present",
+            })
+        ]
+      });
 
-        var pageContent = m(page_content, { children: [grid] });
+      var grid = m(mdl_grid, { children: [cell_freelance, cell_cerner]});
 
-        m.mount(root, {
-          view: function(){
-            return pageContent;
-          }
-        });
+      var pageContent = m(page_content, { children: [grid] });
 
-        // m.mount(root, page_content);
-      }
-  </script>
-
-    <script>
-    // {
-    //   text: "Not a people person. Definitely not."
-    // }
-    var mdl_card_supportingText = {
-      view: function (vnode){
-        return m("div", {class: "mdl-card__supporting-text"}, vnode.attrs.text);
-      }
+      m.mount(root, {
+        view: function(){
+          return pageContent;
+        }
+      });
     }
 
-    // {
-    //   squareClass: "am-card-square-devil",
-    //   icon: "pet",
-    //   title: "Being Inhuman",
-    //   subtitle: "Not a people person. Definitely not."
-    // }
-    var mdl_card_square = {
-      view: function(vnode) {
-        return m(
-          "div",
-          { class: "am-card-square mdl-card mdl-shadow--2dp " + vnode.attrs.squareClass},
-          [
-            m(
-              "div",
-              { class: "mdl-card__title mdl-card--expand"},
-                m(
-                  "h2",
-                  { class: "mdl-card__title-text  am-header-icon" },
-                  [
-                    m(
-                      "i",
-                      { class: "material-icons mdl-list__item-avatar" },
-                      vnode.attrs.icon
-                    ),
-                    m("span", vnode.attrs.title)
-                  ]
-                )
-            ),
-            m(mdl_card_supportingText, { text: vnode.attrs.subtitle })
-          ]
-        );
-      }
-    }
+    function renderInterests() {
+      var root = document.getElementById("fixed-tab-int");
 
-    // {
-    //   compony: "Cerner Healthcare Solutions",
-    //   job: "Software Engineer",
-    //   time: "2016 - Present",
-    // }
-    var mdl_card_career = {
-      view: function(vnode) {
-        return m(
-          "div",
-          { class: "am-card-square mdl-card mdl-shadow--2dp " + vnode.attrs.squareClass},
-          [
-            m(
-              "div",
-              { class: "mdl-card__title mdl-card--expand"},
-                m(
-                  "h2",
-                  { class: "mdl-card__title-text  am-header-icon" },
-                  [
-                    m(
-                      "i",
-                      { class: "material-icons mdl-list__item-avatar" },
-                      "work"
-                    ),
-                    m("span", vnode.attrs.title)
-                  ]
-                )
-            ),
-            m(mdl_card_supportingText, { text: vnode.attrs.subtitle })
-          ]
-        );
-      }
-    }
+      var cell_bike = m(mdl_cell, {
+        cellClasses: "mdl-cell--6-col mdl-cell--12-col-tablet",
+        children: [
+            m(mdl_card_square, {
+            squareClass: "am-card-square-bike",
+            icon: "motorcycle",
+            title: "Solo Riding",
+            subtitle: "For if I have to run, why not chase the mountains?"
+          })
+        ]
+      });
 
-    var mdl_cell = {
-      view: function(vnode) {
-        return m(
-          "div",
-          { class: "mdl-cell " + vnode.attrs.cellClasses },
-          vnode.attrs.children
-        );
-      }
-    }
+      var cell_camera = m(mdl_cell, {
+        cellClasses: "mdl-cell--6-col mdl-cell--12-col-tablet",
+        children: [
+            m(mdl_card_square, {
+            squareClass: "am-card-square-camera",
+            icon: "camera",
+            title: "Photography",
+            subtitle: "Helping reopen wounds that fading memories had swept under the rugs."
+          })
+        ]
+      });
 
-    var mdl_grid = {
-      view: function(vnode) {
-        return m(
-          "div",
-          { class: "mdl-grid" },
-          vnode.attrs.children
-        );
-      }
-    }
+      var cell_game = m(mdl_cell, {
+        cellClasses: "mdl-cell--6-col mdl-cell--12-col-tablet",
+        children: [
+            m(mdl_card_square, {
+            squareClass: "am-card-square-game",
+            icon: "gamepad",
+            title: "Video Games",
+            subtitle: "Escaping reality before 8-bit was cool."
+          })
+        ]
+      });
 
-    var page_content = {
-      view: function(vnode) {
-        return m(
-          "div",
-          { class: "page-content" },
-          vnode.attrs.children
-        );
-      }
+      var cell_devil = m(mdl_cell, {
+        cellClasses: "mdl-cell--6-col mdl-cell--12-col-tablet",
+        children: [
+            m(mdl_card_square, {
+            squareClass: "am-card-square-devil",
+            icon: "pets",
+            title: "Being Inhuman",
+            subtitle: "Not a people person. Definitely not."
+          })
+        ]
+      });
+
+      var grid = m(mdl_grid, { children: [cell_bike, cell_camera, cell_game, cell_devil]});
+
+      var pageContent = m(page_content, { children: [grid] });
+
+      m.mount(root, {
+        view: function(){
+          return pageContent;
+        }
+      });
     }
     </script>
 
