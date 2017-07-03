@@ -1,20 +1,23 @@
-
-// {
-//   text: "Not a people person. Definitely not."
-//    OR
-//   children: {}
-// }
+/*
+{
+  text: "Not a people person. Definitely not."
+}
+   OR
+{
+  children: []
+} */
 var mdl_card_supportingText = {
   view: function (vnode){
     return m("div", {class: "mdl-card__supporting-text"}, vnode.attrs.text || vnode.attrs.children);
   }
 }
 
-// {
-//   icon: "work"
-//   line1: "Cerner Healthcare Solutions",
-//   line2: "2016-present"
-// }
+/*
+{
+  icon: "work"
+  line1: "Cerner Healthcare Solutions",
+  line2: "2016-present"
+} */
 var mdl_list_twoLine = {
   view: function (vnode) {
     return m(
@@ -37,12 +40,13 @@ var mdl_list_twoLine = {
   }
 }
 
-// {
-//   squareClass: "am-card-square-devil",
-//   icon: "pet",
-//   title: "Being Inhuman",
-//   subtitle: "Not a people person. Definitely not."
-// }
+/*
+{
+  squareClass: "am-card-square-devil",
+  icon: "pet",
+  title: "Being Inhuman",
+  subtitle: "Not a people person. Definitely not."
+} */
 var mdl_card_square = {
   view: function(vnode) {
     return m(
@@ -71,12 +75,13 @@ var mdl_card_square = {
   }
 }
 
-// {
-//   icon: "work",
-//   place: "Cerner Healthcare Solutions",
-//   title: "Software Engineer",
-//   period: "2016 - Present",
-// }
+/*
+{
+  icon: "work",
+  place: "Cerner Healthcare Solutions",
+  title: "Software Engineer",
+  period: "2016 - Present",
+} */
 var mdl_card_twoLine = {
   view: function(vnode) {
 
@@ -105,6 +110,10 @@ var mdl_card_twoLine = {
   }
 }
 
+/*
+{
+  children: []
+} */
 var mdl_cell = {
   view: function(vnode) {
     return m(
@@ -115,6 +124,10 @@ var mdl_cell = {
   }
 }
 
+/*
+{
+  children: []
+} */
 var mdl_grid = {
   view: function(vnode) {
     return m(
@@ -125,6 +138,10 @@ var mdl_grid = {
   }
 }
 
+/*
+{
+  children: []
+} */
 var page_content = {
   view: function(vnode) {
     return m(
